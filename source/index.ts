@@ -13,3 +13,6 @@ callController = new CallController(callRepository);
 
 let ui : ICallUI;
 ui = new TextCallUI(callController);
+
+// Inicia a interface textual de interação
+ui.start();
